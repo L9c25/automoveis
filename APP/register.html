@@ -16,7 +16,7 @@
 	<!-- MDB -->
 	<link href="./assets/mdb/mdb.min.css" rel="stylesheet" />
 	<!-- css by Lucas -->
-	<link rel="stylesheet" href="./assets/css/login.css">
+	<link rel="stylesheet" href="./assets/css/register.css">
 	<title>Login</title>
 </head>
 
@@ -46,8 +46,6 @@
 					</div>
 
 					<form>
-						<p class="d-flex">Porfavor entre com sua conta</p>
-
 						<div class="form-outline mb-4">
 							<input type="email" id="user" class="form-control"
 								placeholder="Numero de Celular ou Email" />
@@ -55,19 +53,26 @@
 						</div>
 
 						<div class="form-outline mb-4">
-							<input type="password" id="pass" class="form-control" 
-								placeholder=""/>
+							<input type="password" id="pass" class="form-control" placeholder="" />
 							<label class="form-label" for="pass">Senha</label>
+						</div>
+
+						<div class="form-outline mb-4">
+							<input type="password" id="confirm_pass" class="form-control" placeholder="" />
+							<label class="form-label" for="confirm_pass">Confirme sua senha</label>
+						</div>
+
+						<div class="px-5 text-center">
+							<p>Ao se inscrever, você concorda com os Termos de Serviço, incluindo Política de Privacidade e uso de cookies.</p>
 						</div>
 
 						<div class="text-center pt-1 mb-5 pb-1 d-flex-row align-items-center login_">
 							<button class="btn btn-primary btn-block fa-lg 	t-custom-2 mb-3 btn_login"
-								type="button">Logar</button>
-							<a class="text-muted d-flex" href="#!">Esqueceu sua Senha?</a>
+								type="button">Cadastrar</button>
 						</div>
 
 						<div class="d-flex align-items-center justify-content-center pb-4 ">
-							<p class="mb-0 me-2">Não possui uma conta? <a href="register.html">Faça seu cadastro</a></p>
+							<p class="mb-0 me-2">Já uma conta? <a href="login.html">Entre agora mesmo !</a></p>
 						</div>
 
 					</form>
@@ -85,7 +90,7 @@
 	<script src="./assets/bootstrap/bootstrap.min.js" crossorigin="anonymous"></script>
 	<script src="./assets/ScrollReveal/scrollreveal.js" crossorigin="anonymous"></script>
 	<script>
-		
+
 	</script>
 </body>
 

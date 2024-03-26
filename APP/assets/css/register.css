@@ -34,7 +34,7 @@ h2{
 
 .background {
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
-	url("../img/bg_login.jpeg"); 
+	url("../img/bg.avif	"); 
 	/* Outra opc de fundo -> ../img/bg.avif */
 	background-position: 70% 50%;
 	background-size: cover;
