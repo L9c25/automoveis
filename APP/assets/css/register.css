@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Estilo global da seleção */
+::selection {
+    background-color: #ff5f1f8e; /* Cor de fundo azul */
+    color: #ffffff; /* Cor do texto branco */
+}
+
+/* Estilo de seleção específico para um elemento, como um parágrafo */
+p::selection {
+    background-color: #ff5f1f9b; /* Cor de fundo vermelha */
+    color: #ffffff; /* Cor do texto branco */
+}
+
+
+a{
+	color: #FF601F;
+}
+
+a:hover{
+	color: #ff5f1fc1;
+}
+
+h1{
+	font-family: "Poppins", sans-serif;
+	font-weight: 800;
+	font-size: 60px;
+}
+
+h2{
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+}
+
+.background {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
+	url("../img/bg.avif	"); 
+	/* Outra opc de fundo -> ../img/bg.avif */
+	background-position: 70% 50%;
+	background-size: cover;
+}
+
+.gradient-custom-2 {
+	border-top-right-radius: .3rem;
+	border-bottom-right-radius: .3rem;
+}
+
+
+
+.col-lg-6{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.login_{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.form-label{
+	font-size: 18px;
+}
+
+.btn_login{
+	height: 4em;
+	width: 60%;
+	background-color: #FF601F;
+}
+
+
+/* Esconde o label quando o input está vazio e mostra o placeholder */
+input:placeholder-shown + label {
+	transform: translateY(-10px);
+    /* Estilos para quando o input está vazio */
+    /* Por exemplo, você pode querer manter o label em cima */
+}
+
+/* Mostra o label normalmente quando o input tem algum valor */
+input:not(:placeholder-shown) + label {
+    /* Estilos para manter o label flutuando acima do input */
+    transform: translateY(-20px); /* Ajuste conforme necessário */
+    /* Adicione outros estilos como tamanho da fonte, cor, etc., conforme necessário */
+}
+
+
+
+.btn_login:hover{
+	background-color: #FF601F;
+}
+
+
+@media (max-width: 991px) {
+	.col-lg-6{
+		padding: 0 2em !important;
+	}
+	.col-lg-6{
+		padding: 0 2em !important;
+	}
+
+	.btn_login{
+		height: 5em;
+		width: 100%;
+		background-color: #FF601F;
+	}
+}
