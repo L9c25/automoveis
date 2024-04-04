@@ -284,6 +284,9 @@
 #txt-frota {
     font-size: 18px;
 }
+#carmodelox{
+    cursor: pointer;
+}
 
 /* ----card central --- */
 #titulo-card-foco {
