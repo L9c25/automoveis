@@ -6,11 +6,11 @@
 }
 @font-face{
     font-family: 'Cinzel';
-    src: url('source/fonts/Cinzel-VariableFont_wght.ttf') format('truetype');
+    src: url('assets-home/fonts/Cinzel-VariableFont_wght.ttf') format('truetype');
 }
 @font-face {
     font-family: 'LaBelle';
-    src: url('source/fonts/LaBelleAurore-Regular.ttf') format('truetype');
+    src: url('assets-home/fonts/LaBelleAurore-Regular.ttf') format('truetype');
 }
 
   
