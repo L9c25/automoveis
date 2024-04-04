@@ -1,24 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: var(--Segoe);
 }
-@font-face{
+
+@font-face {
     font-family: 'Cinzel';
     src: url('assets-home/fonts/Cinzel-VariableFont_wght.ttf') format('truetype');
 }
+
 @font-face {
     font-family: 'LaBelle';
     src: url('assets-home/fonts/LaBelleAurore-Regular.ttf') format('truetype');
 }
 
-  
-:root{
-    --Cinzel: 'Cinzel', Arial, sans-serif; 
+
+:root {
+    --Cinzel: 'Cinzel', Arial, sans-serif;
     --Labelle: 'LaBelle', Arial, sans-serif;
     /*segoe*/
-    --Segoe:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --Segoe: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --segoe-ui-extra-light: 100;
     --segoe-ui-light: 200;
     --segoe-ui-semi-light: 300;
@@ -32,7 +34,8 @@
     /*variaveis de cor*/
     --cinza-claro: #909090;
 }
-#header-container{
+
+#header-container {
     display: flex;
     height: 78px;
     justify-content: space-between;
@@ -43,7 +46,8 @@
     font-family: var(--Segoe);
     font-weight: var(--segoe-ui-light);
 }
-#header-logo{
+
+#header-logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,54 +55,54 @@
     font-size: 30px;
     font-weight: 800;
 }
-#header-logo>a>img{
+
+#header-logo>a>img {
     display: flex;
     align-items: center;
 }
-#header-nav{          
-    display: flex;
-    margin-left: 110px;
-}
-#header-nav>ul{
-    display: flex;
-    gap: 50px;
+
+#header-nav {}
+
+#header-nav>ul {
     list-style: none;
     font-size: 18px;
 }
-#lupa-logo{
+
+#lupa-logo {
     margin-left: 70px;
 }
-#header-login ul{
-    display: flex;
+
+#header-login ul {
     justify-content: center;
     align-items: center;
-    gap: 20px;
     padding: 0;
     list-style: none;
     font-size: 20px;
-    
+
 }
-#header-login{
-    margin-right: 11px;
-}
-#header-login >ul>li>a{
+
+#header-login {}
+
+#header-login>ul>li>a {
     text-decoration: none;
     color: white;
 }
 
 /*------------Sub header-----------*/
 
-#sub-header{
+#sub-header {
     display: flex;
     justify-content: space-around;
     height: 35px;
     background-color: #292929;
 
 }
-#nav-marcas{
+
+#nav-marcas {
     margin: auto 20px;
 }
-#nav-marcas > ul{
+
+#nav-marcas>ul {
     display: flex;
     gap: 40px;
     list-style: none;
@@ -110,25 +114,25 @@
 
 /*------container-1 body--------*/
 
-#container-1{
+#container-1 {
     position: relative;
-    width: 1519px;
-    height: 624px;
 }
+
 /*-------slide-------*/
-#img-bmw>img{
+#img-bmw>img {
     width: 100%;
     height: auto;
-    
+
 }
+
 /*------pesquisa flutuante--------*/
 
-#float-pesquisa{
+#float-pesquisa {
     position: absolute;
     background-color: white;
-    width:800px;
+    width: 700px;
     height: 60px;
-    
+
     top: 6%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -142,65 +146,76 @@
     z-index: 10;
 }
 
-#p1{
+#p1 {
     display: flex;
     font-size: 15px;
     gap: 20px;
 }
-#p1>ul{
+
+#p1>ul {
     list-style: none;
     margin: 5px;
     margin-left: 20px;
 }
+
 /*----icons-globais---*/
 /*----arrow---*/
-#flecha-b-svg{
+#flecha-b-svg {
     width: 13px;
     margin-left: 10px;
 }
+
 /*------loc------*/
-#loc-txt{
+#loc-txt {
     color: var(--cinza-claro);
     margin: auto 5px;
 }
-#loc-svg{
+
+#loc-svg {
     width: 13px;
     margin-right: 10px;
     margin-left: 5px;
 }
+
 /*------tipo de carro------*/
-#tipocar-txt{
+#tipocar-txt {
     color: var(--cinza-claro);
     margin: auto 5px;
 }
-#tipocar-svg{
+
+#tipocar-svg {
     width: 13px;
     margin-left: 5px;
     margin-right: 10px;
 }
+
 /*------entrada------*/
-#entrada-txt{
+#entrada-txt {
     color: var(--cinza-claro);
     margin: auto 5px;
 }
-#entrada-svg{
+
+#entrada-svg {
     width: 13px;
     margin-left: 5px;
     margin-right: 10px;
 }
+
 /*------retorno------*/
-#retorno-txt{
+#retorno-txt {
     color: var(--cinza-claro);
     margin: auto 5px;
 }
-#retorno-svg{
+
+#retorno-svg {
     width: 13px;
     margin-left: 5px;
     margin-right: 10px;
 }
+
 /*------BTN pesquisa------*/
 
-#btn-pesquisa{
+#btn-pesquisa {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -213,26 +228,24 @@
     font-size: 15px;
     color: white;
 }
+
 /*--------------test drive botao--------------*/
-#menu-baixo{
-    position: absolute;
-    top: 89%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
+#menu-baixo {
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     z-index: 9;
 }
-#menu-baixo>img{
+
+#menu-baixo>img {
     width: 110%;
 }
-#btn-testedrive{
+
+#btn-testedrive {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
 
     background-color: #deefec;
     width: 200px;
@@ -249,27 +262,31 @@
 
 
 /* ---- frota --- */
-#card-frota{
+#card-frota {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#frota{
+
+#frota {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 30px;
 }
-#titulo-frota{
+
+#titulo-frota {
     font-size: 40px;
     font-weight: var(--segoe-ui-bold);
 }
-#txt-frota{
+
+#txt-frota {
     font-size: 18px;
 }
+
 /* ----card central --- */
-#titulo-card-foco{
+#titulo-card-foco {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
@@ -277,11 +294,13 @@
     font-size: 40px;
     font-weight: var(--segoe-ui-bold);
 }
-#carmodelox{
+
+#carmodelox {
     width: 100%;
     height: auto;
 }
-#card-central{
+
+#card-central {
     display: flex;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
@@ -291,27 +310,31 @@
 
     color: rgb(170, 168, 168);
 }
-#descricao-card-central{
+
+#descricao-card-central {
     display: flex;
     flex-direction: column;
     background-color: black;
     margin: 10px;
     border-radius: 15px;
 }
-#txt-foco-card{
+
+#txt-foco-card {
     color: white;
 }
-#titulo-card-desc{
+
+#titulo-card-desc {
     font-size: 20px;
     margin: 10px;
 }
-#texto-card-desc{
+
+#texto-card-desc {
     font-size: 12px;
     margin: 10px;
 }
 
 /*--btn card central--*/
-#btn-card-central{
+#btn-card-central {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -326,7 +349,7 @@
 
 /*--cards lateral e setas--*/
 
-#card-lateral{
+#card-lateral {
     display: flex;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
@@ -337,24 +360,26 @@
 
     color: #8a8787;
 }
-#titulo2-card-desc{
+
+#titulo2-card-desc {
     font-size: 17px;
     margin: 7px;
 }
-#texto2-card-desc{
+
+#texto2-card-desc {
     font-size: 10px;
     margin: 7px;
 }
 
 /* setas */
 
-#btn-setas{
+#btn-setas {
     margin: 30px;
 }
 
 
 /* ---- container 3 -  */
-#container-3{
+#container-3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -364,30 +389,36 @@
 
     /* ---- css container 3 - global -  */
 
-    #titulos-container3{
+    #titulos-container3 {
         display: inline;
         border-bottom: 2px solid black;
         width: auto;
         padding-bottom: 0px;
         font-size: 50px;
     }
-    #txt-container3{
+
+    #txt-container3 {
         font-size: 18px;
         margin-bottom: 10px;
     }
-    #txt-foco-container3{
+
+    #txt-foco-container3 {
         font-size: 30px;
     }
-    #caixa-txt3{
+
+    #caixa-txt3 {
         background-color: #292929;
-        border-radius: 10px;margin-top: 13px;
+        border-radius: 10px;
+        margin-top: 13px;
     }
-    #titulo-caixa3{
+
+    #titulo-caixa3 {
         margin: 7px;
         font-weight: var(--segoe-ui-bold);
         color: white;
     }
-    #texto-caixa3{
+
+    #texto-caixa3 {
         margin: 7px;
         font-weight: var(--segoe-ui-regular);
         color: #cac6c6;
@@ -395,38 +426,42 @@
 
     }
 }
+
 /* ---- container 3.1 sobre nos -  */
-#container-3-1{
-    display: flex;
+#container-3-1 {
     justify-content: center;
     width: 90%;
-    gap: 40px;
 }
-#sobre-nos{
+
+#sobre-nos {
     display: flex;
     flex-direction: column;
     width: 550px;
     height: 450px;
     gap: 34px;
 }
-#titulo-sobre-nos{
+
+#titulo-sobre-nos {
     margin-bottom: 20px;
 }
-#img-sobre-nos{
+
+#img-sobre-nos {
     height: 450px;
 }
-#img-sobre-nos>img{
+
+#img-sobre-nos>img {
     width: auto;
     height: 100%;
 }
+
 /* ---- container 3.2 nossa frota -  */
-#container-3-2{
-    display: flex;
+#container-3-2 {
     justify-content: center;
     width: 90%;
-   
+
 }
-#nossa-frota{
+
+#nossa-frota {
     display: flex;
     flex-direction: column;
     width: 550px;
@@ -434,71 +469,78 @@
     margin-left: 30px;
     margin-right: 123px;
 }
-#img-nossa-frota{
+
+#img-nossa-frota {
     height: 530px;
 }
-#img-nossa-frota>img{
+
+#img-nossa-frota>img {
     width: auto;
     height: 100%;
 }
 
 /* ---- nossa jornada ----*/
-#container-3-3{
-    display: flex;
+#container-3-3 {
     justify-content: center;
     width: 90%;
 }
-#nossa-jornada{
+
+#nossa-jornada {
     display: flex;
-  
+
     flex-direction: column;
     justify-content: center;
     width: 550px;
     height: 450px;
-    margin-right: 30px;
     gap: 30px;
-    
+
 }
-#img-nossa-jornada>img{
+
+#img-nossa-jornada>img {
     width: auto;
-    height: 100%;
+    height: 450px;
 }
-#img-nossa-jornada{
+
+#img-nossa-jornada {
     height: 470px;
-    margin-right: 35px;
+    margin: 0;
 }
-#btn-saiba-mais{
+
+#btn-saiba-mais {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     background-color: white;
     box-shadow: 0px 0px 30px #00000056;
     border-radius: 20px;
     font-family: var(--segoe-ui-bold);
-    
+
 }
-#btn-saiba-mais>span{
+
+#btn-saiba-mais>span {
     margin: 5px;
 }
 
 /*---container 3.4 localização*/
 
-#container-3-4{
+#container-3-4 {
     display: flex;
     justify-content: center;
-    gap: 90px;
 }
-#loc-ojac{
+
+#loc-Ujjac {
+    width: 473px;
     border: 2px solid #292929;
 }
-#loc-ojac>iframe{
-    width: 580px;
+
+#loc-Ujjac>iframe {
+    width: 470px;
     border: 2px solid #292929;
 }
 
 /*----container 3.5----*/
-#container-3-5{
+#container-3-5 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -507,31 +549,35 @@
     background-color: #181818;
     color: white;
     padding: 30px;
-   
+
 }
-#desc-depoimentos{
+
+#desc-depoimentos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    
+
 }
 
-#titulo-depoimentos{
-    
+#titulo-depoimentos {
+
     font-family: var(--Labelle);
     font-weight: 300;
     margin-bottom: 30px;
 }
-#depoimentos-img{
+
+#depoimentos-img {
     display: flex;
     justify-content: center;
 }
-#depoimentos-img>img{
+
+#depoimentos-img>img {
     width: 1000px;
 }
-#btn-feedback{
+
+#btn-feedback {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -541,44 +587,50 @@
     background-color: white;
     border-radius: 20px;
     color: black;
-    
+
 }
 
 /*-----  galeria -------*/
-#container-3-6{
+#container-3-6 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
+
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* cria quatro colunas */
-    grid-gap: 10px; /* espaço entre as imagens */
-  }
-  
-  .grid-item {
+    grid-template-columns: repeat(4, 1fr);
+    /* cria quatro colunas */
+    grid-gap: 10px;
+    /* espaço entre as imagens */
+}
+
+.grid-item {
     width: 100%;
-    height: 200px; /* altura fixa para todos os itens do grid */
-    overflow: hidden; /* esconde qualquer parte da imagem que exceda o tamanho do item */
-  }
-  
-  .grid-item img {
+    height: 200px;
+    /* altura fixa para todos os itens do grid */
+    overflow: hidden;
+    /* esconde qualquer parte da imagem que exceda o tamanho do item */
+}
+
+.grid-item img {
     width: 100%;
     height: 100%;
-    object-fit: cover; 
+    object-fit: cover;
     display: block;
     border-radius: 10px;
-  }
+}
 
 
-  /* --- contato ----*/
+/* --- contato ----*/
 
-#container-3-7{
+#container-3-7 {
     margin: 80px;
 }
-  .contact-section {
+
+.contact-section {
     background-color: #f2f2f2;
     padding: 40px;
     text-align: center;
@@ -613,4 +665,3 @@
 .contact-form input[type="submit"]:hover {
     background-color: #dc5b0b;
 }
-  
