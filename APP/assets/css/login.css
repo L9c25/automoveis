@@ -105,4 +105,8 @@ input:not(:placeholder-shown) + label {
 		width: 100%;
 		background-color: #FF601F;
 	}
+
+	.bg{
+		display: none;
+	}
 }
