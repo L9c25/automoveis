@@ -3,10 +3,14 @@ $(document).ready(function () {
   $('.date-picker input').datepicker({
     format: 'dd/mm/yyyy',
     autoclose: true,
-    language: 'pt-BR' // Define o idioma como português
+    language: 'pt-BR'
   });
 });
-
+$(document).ready(function () {
+  $("button").click(function () {
+      alert("Você clicou em um botão!");
+  });
+});
 !function (a) {
   a.fn.datepicker.dates["pt-BR"] =
 {

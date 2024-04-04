@@ -207,3 +207,31 @@ input[type="text"] {
   }
 
 }
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.lado2-footer .list-unstyled li a {
+  color: white;
+}
+
+.divider {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media screen and (max-width: 991px) {
+  .lado2-footer {
+    text-align: center !important;
+    align-items: center !important;
+  }
+
+  .lado1-footer {
+    text-align: center !important;
+    align-items: center !important;
+  }
+}
