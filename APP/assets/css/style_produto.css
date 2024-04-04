@@ -234,4 +234,8 @@ footer {
     text-align: center !important;
     align-items: center !important;
   }
+
+  .kapa{
+    display: none !important;
+  }
 }
